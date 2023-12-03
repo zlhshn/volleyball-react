@@ -7,15 +7,16 @@ const Card = ({name,img,statistics}) => {
   const [displayStats ,setDisplayStats] =useState(true);
   return (
 
-    <main className="container row">
-    <div className="card col-4" onClick={()=> setDisplayStats(!displayStats)}>
+   
+     
+    <div className="card col-3 player" onClick={()=> setDisplayStats(!displayStats)}>
       {displayStats?(<img className="card-img-top" src={img} alt={name} /> ) :(
         <ul>
 
 
           {statistics.map((item)=>(
 
-            <li>
+            <li key={name}>
            🏐 {item}
 
             </li>
@@ -36,7 +37,8 @@ const Card = ({name,img,statistics}) => {
 
 
     </div>
-    </main>
+    
+    
   )
 }
 

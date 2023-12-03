@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { data } from "../../data";
 import NavStyled from "./navbar.module.css";
-import Card from  "../card/Card"
+import Card from "../card/Card";
 
 const Navbar = () => {
   const [value, setValue] = useState("");
@@ -20,8 +20,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav>
-      <h1>Filenin Sultanları</h1>
+    <nav className="text-center">
+      <h1 className={NavStyled.h1}>Filenin Sultanları</h1>
 
       <div className="mb-3">
         <input
@@ -34,17 +34,30 @@ const Navbar = () => {
       </div>
 
       {value ? (
-        <div className="container">
-          {data.filter(filtered).map(({ name, img, statistics }) => (
-            <Card key={name} name={name} img={img} statistics={statistics} />
-          ))}
+        <main>
+        <div className={NavStyled.container}>
+          <div className="row">
+            {data.filter(filtered).map(({ name, img, statistics }) => (
+              <Card key={name} name={name} img={img} statistics={statistics} />
+            ))}
+          </div>
         </div>
+        </main>
       ) : (
-        <div className="container">
-          {data.map(({ name, img, statistics }) => (
-            <Card key={name} name={name} img={img} statistics={statistics} />
-          ))}
-        </div>
+        <main>
+          <div className={NavStyled.container}>
+            <div className="row">
+              {data.map(({ name, img, statistics }) => (
+                <Card
+                  key={name}
+                  name={name}
+                  img={img}
+                  statistics={statistics}
+                />
+              ))}
+            </div>
+          </div>
+        </main>
       )}
     </nav>
   );

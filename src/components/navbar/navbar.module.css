@@ -1,0 +1,26 @@
+.container{
+
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+
+    border: none;
+    padding: .3rem .5rem;
+    width: 350px;
+    outline: none;
+    border-radius: 10px;
+}
+
+
+.h1{
+
+    font-family: cursive;
+    font-size: 3.5rem;
+    color: white;
+}
+
