@@ -1,6 +1,6 @@
 
 import Header from "./components/header/Header";
-import Main from "./components/main/Main";
+import Card from "./components/card/Card";
 import Navbar from "./components/navbar/Navbar";
 import  "./app.css"
 
@@ -10,7 +10,7 @@ function App() {
 
     <Header/>
     <Navbar/>
-    <Main/>
+    <Card/>
 
     
     </>

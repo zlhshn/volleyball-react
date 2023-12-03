@@ -1,8 +1,10 @@
-import React from 'react'
+import HeaderStyled from "./header.module.css"
 
 const Header = () => {
   return (
-    <div>Header</div>
+   <header className={HeaderStyled.header}>
+    <img src="./img/logo-tvf.png" alt="" />
+   </header>
   )
 }
 
