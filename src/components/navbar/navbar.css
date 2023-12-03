@@ -1,0 +1,31 @@
+/* .card-div{
+
+    width: 80% !important;
+    margin: auto;
+padding: 2rem;
+    border: 1px solid red
+} */
+
+.input{
+
+    border: none;
+    padding: .5rem .5rem;
+    width: 40%;
+    outline: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.h1{
+
+    font-family: cursive;
+    font-size: 3.5rem;
+    color: white;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

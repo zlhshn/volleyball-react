@@ -1,18 +1,14 @@
-
 import Header from "./components/header/Header";
 import Card from "./components/card/Card";
 import Navbar from "./components/navbar/Navbar";
-import  "./app.css"
+import "./app.css";
 
 function App() {
   return (
-    < >
-
-    <Header/>
-    <Navbar/>
-    <Card/>
-
-    
+    <>
+      <Header />
+      <Navbar />
+      {/* <Card /> */}
     </>
   );
 }

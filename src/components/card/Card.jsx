@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./card.css"
 
 
 
@@ -9,14 +10,14 @@ const Card = ({name,img,statistics}) => {
 
    
      
-    <div className="card col-3 player" onClick={()=> setDisplayStats(!displayStats)}>
-      {displayStats?(<img className="card-img-top" src={img} alt={name} /> ) :(
-        <ul>
+    <div className="card col-3 m-1 d-flex align-items-center  " onClick={()=> setDisplayStats(!displayStats)}>
+      {displayStats?(<img className="card-img-top m-2" src={img} alt={name} /> ) :(
+        <ul className="p-5 m-5 ">
 
 
           {statistics.map((item)=>(
 
-            <li key={name}>
+            <li key={name} className="list-unstyled d-flex align-items-center ">
            🏐 {item}
 
             </li>
@@ -28,7 +29,7 @@ const Card = ({name,img,statistics}) => {
       }
 
       <div>
-        <div className="card-text">
+        <div className="card-text ">
           <a href="#">{name}</a>
         </div>
       </div>

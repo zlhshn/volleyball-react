@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { data } from "../../data";
-import NavStyled from "./navbar.module.css";
+import "./navbar.css";
 import Card from "../card/Card";
 
 const Navbar = () => {
@@ -21,22 +21,22 @@ const Navbar = () => {
 
   return (
     <nav className="text-center">
-      <h1 className={NavStyled.h1}>Filenin Sultanları</h1>
+      <h1 className="h1">Filenin Sultanları</h1>
 
       <div className="mb-3">
         <input
           type="search"
           onChange={handleChange}
-          className={NavStyled.input}
+          className="input"
           id="search"
           placeholder="search player"
         />
       </div>
 
       {value ? (
-        <main>
-        <div className={NavStyled.container}>
-          <div className="row">
+        <main >
+        <div className="card-div d-flex justify-content-center align-items-center m-auto bg-danger rounded-4">
+          <div className="row d-flex justify-content-center ">
             {data.filter(filtered).map(({ name, img, statistics }) => (
               <Card key={name} name={name} img={img} statistics={statistics} />
             ))}
@@ -45,8 +45,8 @@ const Navbar = () => {
         </main>
       ) : (
         <main>
-          <div className={NavStyled.container}>
-            <div className="row">
+          <div className="card-div d-flex justify-content-center align-items-center m-auto">
+            <div className="row d-flex justify-content-center">
               {data.map(({ name, img, statistics }) => (
                 <Card
                   key={name}
