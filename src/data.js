@@ -11,7 +11,7 @@ export const data = [
     },
     {
       name: "İlkin Aydın",
-      img: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fpolemikhabercom.teimg.com%2Fpolemikhaber-com%2Fuploads%2F2023%2F07%2Filkin-aydin.jpg&tbnid=eRD-pGdvl6Z2fM&vet=10CFEQMyiJAWoXChMImLTdhLjzggMVAAAAAB0AAAAAEAM..i&imgrefurl=https%3A%2F%2Fwww.polemikhaber.com%2Filkin-aydindan-trt-muhabirine-nasil-bir-soru-bu&docid=8N49A7UZmafgYM&w=860&h=503&q=ilkin%20ayd%C4%B1n&ved=0CFEQMyiJAWoXChMImLTdhLjzggMVAAAAAB0AAAAAEAM",
+      img: "https://cdn.listelist.com/wp-content/uploads/2023/07/Ilkin-Aydin-kimdir2.jpg",
       statistics: [
         "Smaçör",
         "05/01/2000",
@@ -31,7 +31,7 @@ export const data = [
     },
     {
       name: "Melissa Vargas",
-      img: "https://www.google.com/imgres?imgurl=https%3A%2F%2Ftvf.org.tr%2Fwp-content%2Fuploads%2F2023%2F05%2FMelissa-Vargas.jpg&tbnid=36KwiudYk3MaAM&vet=12ahUKEwi7mfKzuPOCAxXZybsIHTFSDlsQMygDegQIARBb..i&imgrefurl=https%3A%2F%2Ftvf.org.tr%2Fa-milli-kadin-takimi-kadro%2Fattachment%2Fmelissa-vargas-3%2F&docid=bwZyt48D6q15HM&w=994&h=1280&q=melissa%20vargas&ved=2ahUKEwi7mfKzuPOCAxXZybsIHTFSDlsQMygDegQIARBb",
+      img: "https://wp.oggusto.com/wp-content/uploads/2023/09/melissa-vargas-hakkinda-her-sey.webp",
       statistics: [
         "Pasör Çaprazı",
         "16/10/1999",
@@ -41,7 +41,7 @@ export const data = [
     },
     {
       name: "Zehra Güneş",
-      img: "https://www.google.com/imgres?imgurl=https%3A%2F%2Ftvf.org.tr%2Fwp-content%2Fuploads%2F2021%2F05%2FZEHRA-GUNES-scaled.jpg&tbnid=KVQWa0kROXNOXM&vet=12ahUKEwjNpN68uPOCAxXBqf0HHfHzD7YQMygGegQIARBy..i&imgrefurl=https%3A%2F%2Ftvf.org.tr%2Fa-milli-kadin-takimi-kadro%2Fattachment%2Fzehra-gunes-5%2F&docid=MWIX9OynbkuleM&w=1646&h=2560&q=zehra%20g%C3%BCne%C5%9F&ved=2ahUKEwjNpN68uPOCAxXBqf0HHfHzD7YQMygGegQIARBy",
+      img: "https://imgrosetta.mynet.com.tr/file/17345740/640xauto.jpg",
       statistics: [
         "Orta Oyuncu",
         "07/07/1999",
@@ -51,7 +51,7 @@ export const data = [
     },
     {
       name: "Simge Aköz",
-      img: "https://www.google.com/imgres?imgurl=https%3A%2F%2Ftvf.org.tr%2Fwp-content%2Fuploads%2F2021%2F05%2FSIMGE-AKOZ-scaled.jpg&tbnid=Lor89kmor0k1nM&vet=12ahUKEwjl68rEuPOCAxVMof0HHWmvC8cQMygBegQIARA9..i&imgrefurl=https%3A%2F%2Ftvf.org.tr%2Fa-milli-kadin-takimi-kadro%2Fattachment%2Fsimge-akoz-5%2F&docid=RsQLmxNZNkNpRM&w=1646&h=2560&q=simge%20ak%C3%B6z&ved=2ahUKEwjl68rEuPOCAxVMof0HHWmvC8cQMygBegQIARA9",
+      img: "https://i.haberglobal.com.tr/rcman/Cw1230h692q95gm/storage/haber/2021/08/03/filenin-sultanlari-ndan-voleybolcu-simge-akoz-kimdir_1627999528.jpg",
       statistics: [
         "Libero",
         "23/04/1991",

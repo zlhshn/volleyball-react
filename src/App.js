@@ -1,6 +1,5 @@
-import Header from "./components/header/Header";
-import Card from "./components/card/Card";
-import Navbar from "./components/navbar/Navbar";
+import Header from   "../src/components/Header";
+import Navbar from  "../src/components/Navbar";
 import "./app.css";
 
 function App() {
@@ -8,7 +7,6 @@ function App() {
     <>
       <Header />
       <Navbar />
-      {/* <Card /> */}
     </>
   );
 }
