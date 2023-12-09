@@ -1,6 +1,7 @@
 import Header from   "../src/components/Header";
 import Navbar from  "../src/components/Navbar";
-import "./app.css";
+import { Container } from "react-bootstrap";
+
 
 function App() {
   return (
