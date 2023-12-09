@@ -13,7 +13,7 @@ In the project directory, you can run:
 
 ## How does my project look
 
-![filenin_sultanları](./voleybal.gif)
+![filenin_sultanlar](./voleybal.gif)
 
 ## Tech/framework/method  used
 
