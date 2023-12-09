@@ -1,7 +1,7 @@
 export const data = [
     {
       name: "Hande Baladın",
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY_K9Gw70k2XmKdTs9CkOIwV4cSdKI-NTlVw&usqp=CAU",
+      img: "https://www.politikyol.com/wp-content/uploads/2023/09/hande-baladin-1068x601.jpg",
       statistics: [
         "Smaçör",
         "01/09/1997",
@@ -21,7 +21,7 @@ export const data = [
     },
     {
       name: "Kübra Akman",
-      img: "https://www.google.com/imgres?imgurl=https%3A%2F%2Ftvf.org.tr%2Fwp-content%2Fuploads%2F2023%2F05%2FKubra-Akman.jpg&tbnid=fk7Jjg9BEBOpkM&vet=12ahUKEwjRg92nuPOCAxX0ReUKHcNuC4YQMygCegQIARBB..i&imgrefurl=https%3A%2F%2Ftvf.org.tr%2Fa-milli-kadin-takimi-kadro%2Fattachment%2Fkubra-akman-3%2F&docid=yWYFQYdOy0iBIM&w=1127&h=1600&q=k%C3%BCbra%20akman&ved=2ahUKEwjRg92nuPOCAxX0ReUKHcNuC4YQMygCegQIARBB",
+      img: "https://tvf.org.tr/wp-content/uploads/2023/05/Kubra-Akman.jpg",
       statistics: [
         "Orta Oyuncu",
         "13/10/1994",

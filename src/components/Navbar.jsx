@@ -1,6 +1,9 @@
 import Card from "../components/Card";
 import { useState } from "react";
-import  {data} from "../data";
+import { data } from "../data";
+import { Container } from "react-bootstrap";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/esm/Col";
 
 const Navbar = () => {
   const [value, setValue] = useState("");
@@ -16,26 +19,30 @@ const Navbar = () => {
 
     if (player.name.toLowerCase().includes(inputValue)) {
       return player;
-    }}
-
-    return (
-      <div className="container text-center m-auto m-5 " >
-        <div>
-          <input placeholder="search player" className="mb-4 p-2"  type="search" onChange={handleChange} />
-        </div>
-
-        <div className="bg-danger m-auto rounded-4 row  gap-2 p-4 d-flex justify-content-center">
-          {data.filter(filteredFunc).map(({ name, img, statistics }) => (
-            <Card 
-            key={name} 
-            name={name} 
-            img={img} 
-            statistics={statistics}
-             />
-          ))}
-        </div>
-      </div>
-    );
+    }
   };
+
+  return (
+    <>
+      <div className="text-center">
+        <input
+          placeholder="search player"
+          className="mb-4 p-2"
+          type="search"
+          onChange={handleChange}
+        />
+      </div>
+      <Container className="card-container rounded-4 bg-danger p-4 ">
+        <Row className=" gap-2  justify-content-center text-center">
+          {data.filter(filteredFunc).map(({ name, img, statistics }) => (
+            <Col xl={3} lg={4} md={6} key={name}>
+              <Card name={name} img={img} statistics={statistics} />
+            </Col>
+          ))}
+        </Row>
+      </Container>
+    </>
+  );
+};
 
 export default Navbar;
