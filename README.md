@@ -1,11 +1,10 @@
 ## Description
 ✨In this project, I used react-bootstrap library along with react.<br> 
 ✨I aimed to learn the basic structures of react, which I mentioned in the technology section.<br>
-✨Players can be searched in the input section of the page. ✨When the card is clicked, information about the player appears.<br>
+✨Players can be searched in the input section of the page.<br>
+✨When the card is clicked, information about the player appears.<br>
 
-In the project directory, you can run:
 
-#### `npm install` && `npm start`
 
 ## Project Live
 
@@ -23,3 +22,6 @@ In the project directory, you can run:
 * React Hook(useState)
 
 
+In the project directory, you can run:
+
+#### `npm install` && `npm start`
